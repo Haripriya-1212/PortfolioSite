@@ -5,8 +5,9 @@ export default function HomePage() {
   return (
     <>
         <Navbar/>
+        {/* About ------------------------------------------------------------- */}
         <div className='flex flex-row justify-start items-start py-20'>
-            <div className='h-80 w-70 bg-gradient-to-r from-purple-500 to-pink-500 text-white mr-10'>
+            <div className='h-80 w-70 bg-gradient-to-r from-purple-500 to-blue-500 text-white mr-10'>
                 {/* Avatar or something */}
                 {/* Hii */}
             </div>
@@ -17,6 +18,7 @@ export default function HomePage() {
                 <p className='font-primary'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, exercitationem cupiditate veniam, cum delectus sit sunt quibusdam laboriosam aspernatur, voluptatibus possimus? Praesentium amet ducimus recusandae totam aperiam dolorum rerum, non laboriosam autem et dolore architecto atque nostrum? Possimus, fugit provident.</p>
             </div>
         </div>
+        {/* Skills ------------------------------------------------------------- */}
     </>
   )
 }
