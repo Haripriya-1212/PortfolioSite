@@ -19,6 +19,21 @@ export default function HomePage() {
             </div>
         </div>
         {/* Skills ------------------------------------------------------------- */}
+        <div className='flex flex-row flex-wrap justify-start items-start gap-5 py-20'>
+            <img src="src/assets/c.png" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/cpp.png" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/python.png" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/react.svg" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/html2.png" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/css.png" alt="Placeholder" className='h-20' />
+            <img src="src/assets/tailwind.png" alt="Placeholder" className='h-20' />
+            <img src="src/assets/js2.png" alt="Placeholder" className='w-20 h-20' />
+            <img src="src/assets/mongo.png" alt="Placeholder" className='h-18' />
+            <img src="src/assets/flutter.png" alt="Placeholder" className='h-20 w-20' />
+            <img src="src/assets/mysql.png" alt="Placeholder" className='h-20' />
+            <img src="src/assets/rpi.png" alt="Placeholder" className='h-20' />
+            <img src="src/assets/splunk.png" alt="Placeholder" className='w-40' />
+        </div>
     </>
   )
 }

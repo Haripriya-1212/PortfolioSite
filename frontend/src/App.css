@@ -3,7 +3,7 @@
 #root {
     height: 100vh;   
     width: 100%; 
-    padding: 80px 120px;  
+    padding: 80px 240px;  
     background-size: cover;
     background-repeat: no-repeat; 
     /* background-size:100% 100%; */
@@ -14,6 +14,8 @@ body{
     background-color: #000000;
     height: 100%;
     margin: 0;
+    border: #b50000;
+    border-width: 5px;
   }
 
    
