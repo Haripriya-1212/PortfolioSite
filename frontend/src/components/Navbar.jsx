@@ -3,18 +3,14 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div className='flex flex-row justify-between items-center'>
-    <div className='text-white'>
-        <ul className='flex flex-row gap-10 text-xl font-secondary'>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Projects</li>
+    <div className='text-white flex flex-row gap-10 text-xl font-secondary'>
+            <a href="#about" className="hover:underline cursor-pointer">About</a>
+            <a href="#skills" className="hover:underline cursor-pointer">Skills</a>
+            <a href="#projects" className="hover:underline cursor-pointer">Projects</a>
             {/* <li>Certifications</li> */}
-        </ul>
     </div>
-    <div className='text-white font-secondary'>
-        <ul className='text-xl'>
-            <li>Contact</li>
-        </ul>
+    <div className='text-white font-secondary text-xl'>
+            <a href="#contact" className="hover:underline cursor-pointer">Contact</a>
     </div>
     </div>
   )
