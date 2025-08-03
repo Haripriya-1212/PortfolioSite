@@ -38,7 +38,7 @@ export default function HomePage() {
             <img src="src/assets/splunk.png" alt="Placeholder" className='w-40' />
         </div>
         {/* Projects ------------------------------------------------------------- */}
-        <div id="projects" className='flex flex-row gap-10 flex-wrap justify-between items-start py-20'>
+        <div id="projects" className='flex flex-row gap-10 flex-wrap justify-between items-start py-20 mb-10'>
             <Card/>
             <Card/>
             <Card/>
@@ -47,24 +47,29 @@ export default function HomePage() {
             <Card/>   
         </div>
         {/* Contact ------------------------------------------------------------- */}
-        <div id="contact" className="h-30 bg-[#1c1c1c] rounded-lg mb-10 p-10 flex flex-row items-center justify-end gap-8">
-            <div class="w-[50px] h-[50px]">
-                <a href="mailto:haripriya01212@gmail.com" target="_blank" class="group">
-                    <img src="src/assets/contact/email.png" alt="mail" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
-                    <img src="src/assets/contact/email3.png" alt="mail" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
-                </a>
-            </div>
-            <div class="w-[50px] h-[50px]">
-                <a href="https://github.com/Haripriya-1212" target="_blank" class="group">
-                    <img src="src/assets/contact/github.png" alt="github" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
-                    <img src="src/assets/contact/github3.png" alt="github" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
-                </a>
-            </div>
-            <div class="w-[50px] h-[50px]">
-                <a href="https://www.linkedin.com/in/haripriyad/" target="_blank" class="group">
-                    <img src="src/assets/contact/linkedin.png" alt="linkedin" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
-                    <img src="src/assets/contact/linkedin4.png" alt="linkedin" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
-                </a>
+        {/* <div id="contact" className="h-30  bg-[#1c1c1c] rounded-lg mb-10 p-10 flex flex-row items-center justify-end gap-8"> */}
+        <div id="contact" className="h-30 mb-10 flex flex-row items-center justify-between">
+            <div  className='font-primary text-5xl'>Contact</div>
+            <div className='flex-grow h-px bg-gray-500 mx-10'></div>
+            <div className='flex flex-row items-center gap-8'>
+                <div class="w-[50px] h-[50px]">
+                    <a href="mailto:haripriya01212@gmail.com" target="_blank" class="group">
+                        <img src="src/assets/contact/email.png" alt="mail" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
+                        <img src="src/assets/contact/email3.png" alt="mail" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
+                    </a>
+                </div>
+                <div class="w-[50px] h-[50px]">
+                    <a href="https://github.com/Haripriya-1212" target="_blank" class="group">
+                        <img src="src/assets/contact/github.png" alt="github" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
+                        <img src="src/assets/contact/github3.png" alt="github" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
+                    </a>
+                </div>
+                <div class="w-[50px] h-[50px]">
+                    <a href="https://www.linkedin.com/in/haripriyad/" target="_blank" class="group">
+                        <img src="src/assets/contact/linkedin.png" alt="linkedin" className='inline-block group-hover:hidden cursor-pointer align-middle'/>
+                        <img src="src/assets/contact/linkedin4.png" alt="linkedin" className='hidden group-hover:inline-block cursor-pointer align-middle'/>
+                    </a>
+                </div>
             </div>
         </div>
         <div className='h-10'></div>

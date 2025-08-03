@@ -1,9 +1,10 @@
 import React from 'react'
+import Word from './Word'
 
 export default function () {
   return (
     // <div className='flex flex-col overflow-auto border-3 border-gray-700 p-5 rounded-lg shadow-lg h-110 w-100 hover:shadow-2xl hover:shadow-gray-500/70'>
-    <div className='flex flex-col overflow-auto border-2 border-gray-700 p-5 rounded-lg shadow-lg h-110 w-100 shadow-[0_0_15px_rgba(250,250,250,0.3)] hover:shadow-[0_0_15px_rgba(255,255,255,0.3)]'>
+    <div className='flex flex-col overflow-auto border-2 border-gray-700 p-5 rounded-lg shadow-lg h-120 w-100 shadow-[0_0_15px_rgba(250,250,250,0.3)] hover:shadow-[0_0_15px_rgba(255,255,255,0.3)]'>
         <div className='flex flex-row justify-between items-start mb-4'>
             <div className='font-secondary font-semibold text-xl'>
                 Alzheimer's Ally
@@ -17,7 +18,12 @@ export default function () {
                 </a>
             </div>
         </div>
-        <p className='mb-5'>A IoT project, also our major project - prototype of a device that helps Alzheimer patients more independent, uses ESP32 microcontroller, AI models for face recognition, scream detection and MERN website</p>
+        <p className='mb-3'>A IoT project, also our major project - prototype of a device that helps Alzheimer patients more independent, uses ESP32 microcontroller, AI models for face recognition, scream detection and MERN website</p>
+        <div className='flex flex-row gap-3'>
+            <Word word={"MERN stack"}/>
+            <Word word={"Iot"}/>
+            <Word word={"AI models"}/>
+        </div>
         <img src="/src/assets/projects/p1.png" alt="project" className='rounded-lg'/>
         {/* <div className='w-full h-10 bg-gray-700 text-gray-400 rounded-sm p-2 pl-3'>
             Ask anything about this project
